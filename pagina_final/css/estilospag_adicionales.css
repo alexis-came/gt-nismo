@@ -1,0 +1,226 @@
+.carousel {
+    height: 300px; /* Ajusta la altura según tus necesidades */
+}
+
+.carousel .carousel-item img {
+    height: 100%; /* Asegura que las imágenes ocupen todo el contenedor */
+    object-fit: cover; /* Mantiene la proporción de la imagen y la cubre completamente */
+}
+
+
+h1.black-text {
+    font-weight: bold;
+    margin: 20px; /* Añade espacio alrededor del h1 */
+}
+
+p.black-text {
+    font-weight: bold;
+    margin: 20px; /* Añade espacio alrededor de los párrafos */
+}
+.bronze-text {
+    color: #CD7F32; /* Color bronce slider */
+      font-weight: bold; /* Texto más grueso */
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7em; /* fuete de letra etiquetas h1 */
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em; /* fuete de letrta etiquetasp*/
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn {                          /*estilo boton*/
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav-wrapper a {          /*color del texto*/
+    color: red !important;
+}
+													/*ESTA PARTE ES PARA CAMBIAR EL COLOR del menu hamburgesa */
+.colorSidenav{
+	background: #A6D5E8;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+													/*ESTA PARTE ES PARA CAMBIAR EL COLOR DE LOS ICONOS del menu hamburgesa */
+.colorIcon{
+	color: #6E2C00 !important;  /*con importan das prioridad para que haga lo que tu quieras*/
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+								/*IMAGEN DEL HEADER PAGINA INDEX.HTML*/
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../assets/img/hd1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+/******************************************************paradax efecto en birnvrnido.html************************************************************************************/
+
+											/**IMAGEN 1**/
+.parallax {
+  
+  background-image: url("../assets/img/pa1.jpg");
+
+  
+  min-height: 500px;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+											/**IMAGEN 2**/
+
+.parallax2 {
+  
+  background-image: url("../assets/img/pa2.jpg");
+
+  
+  min-height: 500px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*******************************************SECCION PARA LAS IMAGENES DE HEADER SLIDER(CARRUCEL)**************NO FUNCIONO***************************************************************************/
+.repostera1 {
+  height: 100vh !important;
+  min-height: 720px !important; /*en esta linea se asigna prioridad y el tamaño de imagen*/
+  background-image: url('../assets/img/staff1p.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.repostera2 {
+  height: 100vh;
+  min-height: 720px !important;
+  background-image: url('../assets/img/staff2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.repostera3 {
+  height: 100vh;
+  min-height: 720px !important;
+  background-image: url('../assets/img/staff3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.repostera4 {
+  height: 100vh;
+  min-height: 720px !important;
+  background-image: url('../assets/img/staff4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*******************************************SECCION PARA LAS IMAGENES DE HEADER SLIDER(CARRUCEL)*****************************************************************************************/
+
+.our-team{
+   height: 100vh;
+  min-height: 720px !important; /*en esta linea se asigna prioridad y el tamaño de imagen*/
+  background-image: url('../assets/img/fotocarrusel1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.our-team .pic{
+    background: #aff55f;
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .pic{
+    padding: 10px;
+    border-radius: 10px;
+    transform: scale(0.5) translateY(-30%);
+}
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+}
+.our-team .team-content{
+    width: 100%;
+    padding: 7px 15px;
+    background: #f6931e;
+    position: absolute;
+    bottom: -30%;
+    right: 0;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .team-content{
+    opacity: 1;
+    bottom: -10px;
+}
+.our-team .title{
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 0 0 5px 0;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: all 0.35s ease 0s;
+}
+.our-team .social li{
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.our-team .social li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 15px 0 15px 0;
+    font-size: 20px;
+    color: #fff;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    transition: all 0.35s ease 0s;
+}
+.our-team .social li a:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #e06f06;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: -1;
+    transition: all 0.3s ease-in-out 0s;
+}
+.our-team .social li a:hover:before{ left: 0; }
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+} 

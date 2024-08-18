@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Videos</title>
+    <link rel="stylesheet" type="text/css" href="css/materialize/css/materialize.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/fav1.png"><!--favicon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--MENU AMBURGUESA-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!--librria para iconos-->
+    <link rel="stylesheet" type="text/css" href="css/estilospag_adicionales.css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script type="text/javascript " src="js/funciones_pag.js"></script>
+    <script type="text/javascript" src="css/materialize/js/materialize.js"></script>
+    <style>
+        body{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper white">
+            <a href="#" class="brand-logo">
+                <img src="assets/img/logba.png" class="responsive-img"></img>
+            </a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down"><!--AQUI SE CREA LOS CAMPOS DEL MENU-->
+               <li><a href="bienvenida.html" class=""><i><em>Historia</em></i></a></li>
+            <li><a href="productos.html" class=""><i><em>Productos</em></i></a></li>
+            <li><a href="equipo.html" class=""><i><em>Equipo</em></i></a></li>
+            <li><a href="contacto.html" class=""><i><em>Contacto</em></i></a></li>
+            <li><a href="videos.html" class=""><i><em>Videos</em></i></a></li>
+            <li><a href="ubicacion.html" class=""><i><em>Ubicacion</em></i></a></li><!--CAMPO 5-->
+            </ul>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav colorSidenav">
+        <section>
+            <div><li class="background white center-align"><a href="#"><i class="fa-solid fa-circle-user"></i><span class="black-text name center"><i>ALEXIS SANCHEZ</i></span></a></li></div><!--titulO menu hamb-->
+            <div><li class="background white center-align"><a href="#"><i class="fa-solid fa-envelope"></i><span class="black-text name center"><i>alexis@gmail.com</i></span></a></li></div>
+        </section>
+        <li><a href="bienvenida.html"><i class="material-icons colorIcon">Bienvenida</i><i>Historia</i></a></li>
+        <li><a href="productos.html"><i class="fa-solid fa-tag"></i><i>Productos</i></a></li>
+        <li><a href="personal.html"><i class="fa-solid fa-star"></i><i>Equipo</i></a></li>
+        <li><a href="contacto.html"><i class="fa-solid fa-star"></i><i>Contacto</i></a></li>
+        <li><a href="videos.html"><i class="fa-solid fa-cake-candles"></i><i>videos</i></a></li>
+        <li><a href="ubicacion.html"><i class="fa-solid fa-location-dot"></i><i>Ubicacion</i></a></li>
+    </ul> 
+
+    <section id="videos">
+                        <div class="container-fluid">
+                                                
+                            <div class="row">
+                                <div class="col s12 center-align background white black-text">
+                                    <h1 id="ppu"></h1>
+                                </div>
+                            </div>
+                                                <!--Aqui Los videos-->
+                            <div class="row background white center-align red-text">
+                                <div class="col s12 m6 l6 xl6">
+                                    <h1 id="pderr"></h1>
+                                    <video src="assets/videos/derrape.mp4" class="responsive-video" controls poster="assets/img/ve1.jpg" ></video>
+                                </div>
+                                <div class="col s12  m6 l6 xl6">
+                                    <h1 id="pev"></h1>
+                                    <video src="assets/videos/evento.mp4" class="responsive-video" controls poster="assets/img/v1.jpg"></video>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <p style="color: black;"><i>Copyright todos los derechos reservados del 2024</i></p>
+                        <a href="https://es-la.facebook.com/" target="_blank" class="tooltip" title="facebook"><i class="fa-brands fa-square-facebook fa-2xl" style="color: black;"></i></a><!--TARGET ES PARA QUE SE ABRA EN UNA PESTAÑA NUEVA-->
+                        <a href="https://www.instagram.com/?hl=es-la%3F%2F" target="_blank" class="tooltip" title="instagram"><i class="fa-brands fa-square-instagram fa-2xl" style="color: black;"></i></a>
+                        <a href="https://www.tiktok.com/es/" target="_blank"><i class="fa-brands fa-tiktok fa-2xl" class="tooltip" title="tiktok" style="color: black;"></i></a>
+                        <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter fa-2xl" class="tooltip" title="twiter" style="color: black;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    <link rel="stylesheet" type="text/css" href="js/tooltipster/css/tooltipster.bundle.min.css" />
+    <script type="text/javascript" src="js/tooltipster/js/tooltipster.bundle.min.js"></script>
